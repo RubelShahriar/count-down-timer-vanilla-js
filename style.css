@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+
 /* general styling */
 :root {
   --smaller: 0.75;
@@ -19,8 +21,7 @@ body {
   align-items: center;
   background-color: rgb(86, 248, 86);
   display: flex;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: "Berkshire Swash", serif;
 }
 
 .container {
@@ -32,7 +33,7 @@ body {
 h1 {
   font-weight: normal;
   letter-spacing: 0.125rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 li {
@@ -40,7 +41,7 @@ li {
   font-size: 1.5em;
   list-style-type: none;
   padding: 1em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 li span {
